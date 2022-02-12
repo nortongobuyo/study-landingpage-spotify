@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Sansita+Swashed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&family=Roboto:wght@300&family=Sansita+Swashed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto+Slab:wght@300&family=Roboto:wght@300&family=Sansita+Swashed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto+Slab:wght@300&family=Roboto:wght@300&family=Sansita+Swashed&family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto+Slab:wght@300&family=Roboto:wght@300&family=Rubik&family=Sansita+Swashed&family=Secular+One&display=swap');
+
+/* font-family: 'Righteous', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Slab', serif;
+font-family: 'Rubik', sans-serif;
+font-family: 'Sansita Swashed', cursive;
+font-family: 'Secular One', sans-serif;
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: border-box;
+    box-sizing: 0;
+}
+
+header{
+
+    background:  #013440;
+    color: #ffffff;
+    
+}
+
+
+body {
+
+    font-size: 100%;
+    background: #2DA679;
+    
+}
+
+
+
+
+
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 25px;
+}
+
+.cabecalho-imagem{
+    height: 72px;
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap: 50px;
+}
+
+.cabecalho-menu-item{
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    font-size: 21px;
+    font-weight: 400
+    
+    
+    
+}
+
+.conteudo{
+    margin-top: 85px;
+    display:flex;
+    flex-direction: row;
+    margin-bottom: 85px;
+    justify-content:space-around;
+    
+
+
+}
+
+.conteudo-principal{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.conteudo-principal-escrito{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.conteudo-principal-escrito-titulo{
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 34px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.conteudo-principal-escrito-subtitulo{
+    font-family: 'Roboto Slab', serif;
+    font-size: 34px;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+.conteudo-principal-escrito-paragrafo{
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+.conteudo-principal-escrito-botao{
+    
+    border-radius: 20px;
+    background-color: #013440;
+    color: #ffffff;
+    width: 130px;
+    height: 35px;
+    font-family: 'Righteous', cursive;
+    font-size: 16px;
+    font-weight: 400;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   
+}
+
+.conteudo-principal-imagem{
+    height: 175px;
+    width: 175px;
+    
+}
+
+.conteudo-secundario-imagem{
+    mix-blend-mode: darken;
+}
+
+.conteudo-terceario-imagem1{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    color: #013440;
+    
+    
+}
+.conteudo-terceario-imagem2{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    color: #013440;
+    
+}
+.conteudo-terceario-imagem3{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    color: #013440;
+    
+}
+.conteudo-terceario-imagem4{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    color: #013440;
+    
+}
+
+
+ .conteudo-terceario{
+        font-family: 'Secular One', sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+        display: flex;
+        justify-content: space-around;
+        padding: 50px;
+        color: #013440;
+        background: #DDF2CE;
+    
+} 
+
+
+
+
+.conteudo-footer{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    color: #ffffff;
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    background: #23D972;
+}
+
+
+
